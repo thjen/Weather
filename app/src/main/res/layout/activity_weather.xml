@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_weather"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.qthjen.weather.Weather">
+
+        <LinearLayout
+            android:paddingTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/etInput"
+                android:layout_width="310dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint"
+                android:textSize="25dp"
+                android:paddingLeft="5dp" />
+
+            <Button
+
+                android:id="@+id/btOk"
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:text="@string/buttonOk"
+                android:textSize="25dp"
+                android:background="@color/blur"
+                android:textAllCaps="false"/>
+
+        </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:paddingTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/date"
+        android:textSize="25dp"
+        android:paddingLeft="5dp"
+        android:textColor="@color/tv"/>
+
+    <TextView
+        android:id="@+id/tvCity"
+        android:paddingTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/city"
+        android:textSize="25dp"
+        android:paddingLeft="5dp"
+        android:textColor="@color/tv"/>
+
+    <TextView
+        android:id="@+id/tvCountry"
+        android:paddingTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/country"
+        android:textSize="25dp"
+        android:paddingLeft="5dp"
+        android:textColor="@color/tv"/>v
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvStatus"
+            android:paddingTop="15dp"
+            android:paddingLeft="5dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="@string/status"
+            android:textSize="25dp"
+            android:textColor="@color/tv"/>
+
+        <ImageView
+            android:paddingTop="20dp"
+            android:id="@+id/ivStatus"
+            android:layout_width="55dp"
+            android:layout_height="55dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvTemperature"
+        android:paddingTop="15dp"
+        android:paddingLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/temperature"
+        android:textSize="25dp"
+        android:textColor="@color/tv"/>
+
+    <TextView
+        android:id="@+id/tvHumidity"
+        android:paddingTop="15dp"
+        android:paddingLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/humidity"
+        android:textSize="25dp"
+        android:textColor="@color/tv"/>
+
+    <TextView
+        android:id="@+id/tvCondision"
+        android:paddingTop="15dp"
+        android:paddingLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/condision"
+        android:textSize="25dp"
+        android:textColor="@color/tv"/>
+
+    <TextView
+        android:id="@+id/tvWind"
+        android:paddingTop="15dp"
+        android:paddingLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/wind"
+        android:textSize="25dp"
+        android:textColor="@color/tv"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="end">
+
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btNextDay"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:id="@+id/btNextDays"
+            android:background="@color/blur"
+            android:paddingRight="15dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

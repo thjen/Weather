@@ -1,0 +1,25 @@
+<resources>
+
+    <string name="app_name">Weather</string>
+    <string name="about">About</string>
+    <string name="setting">Setting</string>
+    <string name="aboutLabel">About me</string>
+    <string name="settingLabel">Setting</string>
+    <string name="app">App: Weather Application</string>
+    <string name="aboutPackage">Package: Qapps</string>
+    <string name="dev">Developer: Q.ThjeN</string>
+    <string name="version">Version: 0.0.1</string>
+    <string name="date">Curent date: </string>
+    <string name="buttonOk">Ok</string>
+    <string name="temperature">Temperature: </string>
+    <string name="humidity">Humidity: </string>
+    <string name="condision">Cloud: </string>
+    <string name="hint">Input address</string>
+    <string name="city">City: </string>
+    <string name="status">Status: </string>
+    <string name="wind">Wind: </string>
+    <string name="thenext3day">The next three days</string>
+    <string name="btNextDay">Next days</string>
+    <string name="country">Country: </string>
+
+</resources>
